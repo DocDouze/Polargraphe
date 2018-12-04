@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/install
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.9.0
+Cflags: 
+Libs: -L/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/devel
+
+Name: polargraph
+Description: Description of polargraph
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/devel/lib 
+Requires: 

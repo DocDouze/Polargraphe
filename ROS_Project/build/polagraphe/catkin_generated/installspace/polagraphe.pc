@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/install
+
+Name: polagraphe
+Description: Description of polagraphe
+Version: 0.0.0
+Cflags: -I/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/install/include
+Libs: -L/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/install/lib 
+Requires: message_runtime

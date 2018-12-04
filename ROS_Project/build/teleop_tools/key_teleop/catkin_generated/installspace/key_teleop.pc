@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/install
+
+Name: key_teleop
+Description: Description of key_teleop
+Version: 0.2.6
+Cflags: 
+Libs: -L/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/install/lib 
+Requires: 

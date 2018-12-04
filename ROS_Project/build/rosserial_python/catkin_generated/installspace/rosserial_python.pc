@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/install
+
+Name: rosserial_python
+Description: Description of rosserial_python
+Version: 0.8.0
+Cflags: 
+Libs: -L/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/install/lib 
+Requires: 

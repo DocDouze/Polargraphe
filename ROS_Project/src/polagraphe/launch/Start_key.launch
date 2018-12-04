@@ -1,0 +1,12 @@
+<launch>
+      <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+      
+      <include file="$(find  my_dynamixel_tutorial)/launch/start_meta_controller.launch"/>
+
+      <node pkg = "polagraphe" name = "motor_cmd" type ="motor_cmd.py" output="screen"/>
+      <node pkg = "polagraphe" name = "cpe" type ="cpe.py" output="screen"/>
+      <node pkg = "polargraph" name = "rplidar" type ="rplidar.py" output="screen"/>
+      <node pkg = "rosserial_python" name = "serial_node" type ="serial_node.py" args="/dev/ttyUSB0" output="screen"/>
+      <node pkg = "polargraph" name = "tof_ranger" type ="tof_ranger.py" output="screen"/>
+
+</launch>

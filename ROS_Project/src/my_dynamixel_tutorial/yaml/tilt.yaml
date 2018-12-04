@@ -1,0 +1,36 @@
+motor1:
+    controller:
+        package: dynamixel_controllers
+        module: joint_torque_controller
+        type: JointTorqueController
+    joint_name: claw_1f
+    joint_speed: 0.0
+    motor:
+        id: 1
+        init: 512
+        min: 0
+        max: 1023
+motor2:
+    controller:
+        package: dynamixel_controllers
+        module: joint_torque_controller
+        type: JointTorqueController
+    joint_name: claw_1f
+    joint_speed: 0.0
+    motor:
+        id: 2
+        init: 512
+        min: 0
+        max: 1023
+# motor3:
+#     controller:
+#         package: dynamixel_controllers
+#         module: joint_position_controller
+#         type: JointPositionController
+#     joint_name: claw_1f
+#     joint_speed: 0.0
+#     motor:
+#         id: 3
+#         init: 0
+#         min: 0
+#         max: 4095

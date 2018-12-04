@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/devel
+
+Name: dynamixel_controllers
+Description: Description of dynamixel_controllers
+Version: 0.4.1
+Cflags: -I/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/devel/include
+Libs: -L/home/aubailly/Desktop/Projet_Polagraphe/ROS_Project/devel/lib 
+Requires: rospy actionlib dynamixel_driver std_msgs trajectory_msgs diagnostic_msgs dynamixel_msgs control_msgs
